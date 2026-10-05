@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
@@ -31,3 +32,6 @@ build/
 
 ### VS Code ###
 .vscode/
+=======
+/djksflk
+>>>>>>> 56cad9a260a87206a330d011e29812ac5f7c2d56
