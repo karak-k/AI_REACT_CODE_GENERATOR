@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LovableCloneApplication {
 
 	public static void main(String[] args) {
+		System.out.println(java.util.TimeZone.getDefault());
 		SpringApplication.run(LovableCloneApplication.class, args);
 	}
 
