@@ -4,8 +4,8 @@ spring:
 
   datasource:
     url: jdbc:postgresql://localhost:9010/pgvector-test
-    username: user
-    password: password
+    username: DB_USERNAME
+    password: DB_PASSWORD
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -30,13 +30,13 @@ ai:
         model: nvidia/nemotron-3-super-120b-a12b:free
         temperature: 0.0
 jwt:
-   secret-key: bdugeriherignerih5678932y8738hfskjdmbsjdnksjn
+   secret-key: JWT_SECRET_KEY
 
 stripe:
    api:
-     secret-key: STRIPE_SECRET_REMOVED
+     secret-key: STRIPE_SECRET_KEY
    webhook:
-     secret: STRIPE_WEBHOOK_SECRET_REMOVED
+     secret: STRIPE_WEBHOOK_SECRET
 
 client.url: http://localhost:8080
 
@@ -48,6 +48,6 @@ logging:
 
 minio:
   url: http://localhost:9000
-  access-key: minioadmin
-  secret-key: minioadmin123
+  access-key: MINIO_ACCESS_KEY
+  secret-key: MINIO_SECRET_KEY
   project-bucket: projects
